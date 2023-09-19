@@ -6,7 +6,8 @@ import Exceptions.UncorrectDataException;
 import Model.*;
 import Services.IRepository;
 import Services.PetRepository;
-import UserInterface.*;
+import Userinterface.ConsoleView;
+import Userinterface.View;
 
 public class PetController {
     private IRepository<Pet> petRepository;
